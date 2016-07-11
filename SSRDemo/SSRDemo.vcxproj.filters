@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="JmxR">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="HLSL">
+      <UniqueIdentifier>{54241238-4cc8-4232-9293-0d295ec494c2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Camera.cpp">
+      <Filter>JmxR</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DUti.cpp">
+      <Filter>JmxR</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectXDemo.cpp">
+      <Filter>JmxR</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry.cpp">
+      <Filter>JmxR</Filter>
+    </ClCompile>
+    <ClCompile Include="JmxRMesh.cpp">
+      <Filter>JmxR</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix.cpp">
+      <Filter>JmxR</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>JmxR</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneParser.cpp">
+      <Filter>JmxR</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>JmxR</Filter>
+    </ClCompile>
+    <ClCompile Include="tiny_obj_loader.cc">
+      <Filter>JmxR</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml2.cpp">
+      <Filter>JmxR</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>JmxR</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector.cpp">
+      <Filter>JmxR</Filter>
+    </ClCompile>
+    <ClCompile Include="源.cpp">
+      <Filter>JmxR</Filter>
+    </ClCompile>
+    <ClCompile Include="Sponza.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Camera.h">
+      <Filter>JmxR</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DMesh.h">
+      <Filter>JmxR</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DUti.h">
+      <Filter>JmxR</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectXDemo.h">
+      <Filter>JmxR</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry.h">
+      <Filter>JmxR</Filter>
+    </ClInclude>
+    <ClInclude Include="JmxR.h">
+      <Filter>JmxR</Filter>
+    </ClInclude>
+    <ClInclude Include="JmxRConfig.h">
+      <Filter>JmxR</Filter>
+    </ClInclude>
+    <ClInclude Include="JmxRDemo.h">
+      <Filter>JmxR</Filter>
+    </ClInclude>
+    <ClInclude Include="JmxRMesh.h">
+      <Filter>JmxR</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>JmxR</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix.h">
+      <Filter>JmxR</Filter>
+    </ClInclude>
+    <ClInclude Include="OBJMesh.h">
+      <Filter>JmxR</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>JmxR</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneParser.h">
+      <Filter>JmxR</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>JmxR</Filter>
+    </ClInclude>
+    <ClInclude Include="tiny_obj_loader.h">
+      <Filter>JmxR</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml2.h">
+      <Filter>JmxR</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>JmxR</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>JmxR</Filter>
+    </ClInclude>
+    <ClInclude Include="Sponza.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="HLSL\DDA\ABufferPS.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\DDA\ABufferPSA.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\DDA\ABufferPSN.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\DDA\ABufferPSNA.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\DDA\ABufferVS.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\DDA\BlurPSHorizontal.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\DDA\BlurPSVertical.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\DDA\BlurVS.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\DDA\ConeTracingPS.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\DDA\ConeTracingVS.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\DDA\DDAPS.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\DDA\DDAVS.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="SponzaPS.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="SponzaPSA.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="SponzaPSN.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="SponzaPSNA.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="SponzaVS.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
